@@ -1,0 +1,40 @@
+*{
+    padding: 0;
+    margin:0;
+    box-sizing:border-box;
+}
+.container{
+    height:100vh;
+    width:100vw;
+    background-color: #c2ffdd;
+    background-image: linear-gradient(45deg, #c2ffdd 0%, #FFFB7D 100%);
+
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+.box{
+    height:400px;
+    width:300px;
+    background-color: white;
+    border-radius:20px;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap:10px;
+}
+img{
+    width:90%;
+    height:65%;
+    border-radius:10px;
+}
+h3{
+    width:90%;
+    font-weight: bold;
+    
+}
+p{
+    width:90%;
+    font-size:0.8rem;
+}
